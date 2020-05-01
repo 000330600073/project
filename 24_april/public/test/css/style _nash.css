@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+}
+/*---------header--------*/
+header {
+	padding: 6 10% 6 10%;
+	color: #e6e6e6;
+	font-size: 0.9em;
+	background-color: black;
+}
+.kinogo {
+	font-size: 1.2em;
+	display: inline;
+	text-decoration: none;
+}
+.right {
+	display: inline;
+	float: right;
+}
+header input {
+	margin: 0 6px;
+	padding: 2px 4px;
+	color: white-grey;
+	background-color: grey;
+	border-width: 0.5;
+	border-color: #b8b8b8;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+header input::placeholder {
+	color: #b8b8b8;
+}
+header button {
+	background-color: #2e2e2e;
+	border-width: 0.5;
+	border-color: #3d3d3d;
+	color: #b8b8b8;
+	padding: 2 8px;
+}
+header button:hover {
+	background-color: grey;
+}
+header a {
+	text-decoration: underline;
+}
+header a:hover {
+	color: #db620b;
+}
+
+/*---------body--------*/
+
+body {
+	font-family: Roboto;
+	background-image: url("images/dicaprio.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-attachment: fixed;
+	box-shadow: inset 0px -1000px 500px -500px #000;
+}
+body::after {
+	opacity: 0.5;
+}
+main {
+	margin: 13% 10% 0 10%;
+}
+.sections {
+	font-weight: 400;
+	width: 100%;
+	padding-left: 4px; 
+}
+.sections button {
+	font-weight: 700;
+	padding: 6px 12px 4px;
+	border-width: 0.5;
+	background-color: #363636; 
+	border-color: black;
+	color: grey;
+	border-radius: 8px 8px 0px 0px;
+}
+.sections button:hover {
+	background-color: #242424;
+}
+.posters {
+	width: 100%;
+	margin-top: 0.8px;
+	background-color: #525252; 
+	border-color: grey;
+	border: inset;
+	border-width: 1;
+	border-radius: 8px;
+}
+.poster {
+	display: inline-block;
+	margin: 16px 14px;
+}
+.poster img {
+	margin: 0 7px;
+	height: 170px;
+	opacity: 0.8;
+	border: solid grey;
+	border: inset;
+}
+.poster img:hover {
+	opacity: 1;
+}
+.container {
+	width: 100%;
+	margin-top: 14px;
+	background-color: #363636; 
+	height: 500px;
+	border-color: grey;
+	border: inset;
+	border-width: 1;
+	border-radius: 8px;
+	position: relative;
+    width: 640px;
+    float: right;
+    border-left: 1px solid #000;
+    background: #2b2b2b;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.shortstory {
+    border-top: 1px solid #404040;
+    padding: 5px 20px 10px;
+    float: left;
+    background: #2b2b2b;
+    clear: both;
+    color: #fff;
+    position: relative;
+    border-left: 1px solid #404040;
+	
+}
+.aside, .content {
+	display: inline;
+}
+
+.aside {
+	width: 36%;
+	height: 90%;
+	float: left;
+	border-radius: 8px 0 0 8px;
+	background-color: #525252;
+}
+.content {
+	width: 64%;
+	height: 100%;
+	float: right;
+	border-radius: 0px 8px 8px 0px;
+}
+.content2 {
+    overflow: auto;
+    width: 331px;
+    display: block;
+    border-top: 1px solid #848480;
+    padding-bottom: 5px;
+}
+.leftblok1 {
+    position: relative;
+    width: 156px;
+    float: left;
+    padding-top: 15px;
+}
+
+.leftblok2 {
+    position: relative;
+    width: 156px;
+    float: left;
+    padding-top: 15px;
+}
+.mini {
+    padding-left: 20px;
+}
+hr {
+	border: none;
+	background-color: grey;
+	height: 1px;
+}
+footer {
+	position: absolute;
+  bottom: 0;
+	padding:0px;
+
+	color: white;
+	font-size: 0.9em;
+	background-color: black;
+    width: 100%;
+
+	
+}
+.footer-text img {
+    opacity: .7;
+    float: left;
+    margin: 8px 20px 8px 0;
+    border-radius: 10px;
+    overflow: hidden;
+	
+}
+	
